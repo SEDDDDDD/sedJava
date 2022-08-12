@@ -44,6 +44,7 @@ public class Q5_7 {
 		for (int i=0;i<count;i++){
 			if (array[i]== findNum) {
 				idx[i] = array[i];
+				}
 				
 			}
 		}
