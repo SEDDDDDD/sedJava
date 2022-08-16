@@ -42,18 +42,13 @@ public class Q5_7 {
 		System.out.println(count);
 		int[] idx = new int[count];
 		for (int i=0;i<count;i++){
+			// 값이 같으면 인덱스에 넣기
+			// 다르면 idx[i] 값은 그대로 array[i] 값만 1씩 증가해서   
 			if (array[i]== findNum) {
 				idx[i] = array[i];
-				}
-				
-			}
-		}
-		System.out.println(idx[0]);
-		System.out.println(idx[1]);
-		System.out.println(idx[2]);
-		
-		System.out.print("찾는 숫자 위치 : arr["+idx[count-1]+"]");
-	
+				} 
+			} 
+
 	}
 
 }
