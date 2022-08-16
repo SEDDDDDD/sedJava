@@ -39,6 +39,17 @@ public class CarExample {
 		System.out.println("엄마차3 색상 : "+motherCar3.color);
 		System.out.println("엄마차3 배기량 : "+motherCar3.cc);
 		
+		Car motherCar4 = new Car("현대", "그랜저", "검정");
+		motherCar4.maxSpeed = 350;
+		motherCar4.speed = 80;
+		System.out.println("내차 : "+ motherCar4.color);
+		System.out.println("최고 속도 : "+ motherCar4.maxSpeed +"km/s");
+		System.out.println("현재 속도 : "+ motherCar4.speed+"km/s");
+		
+		
+		
+		
+		
 	}
 
 }

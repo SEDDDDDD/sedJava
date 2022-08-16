@@ -6,11 +6,17 @@ public class Car {
 		String company;
 		String model;
 		String color;
-		int maxSpeed = 350;
+		int maxSpeed;
 		int speed;
 		int cc;
 	
 		// 생성자
+		Car(){
+		}
+		
+		Car(String company){
+			this(company, "아반떼");
+		}
 		Car(String company, String model){
 			this(company, model, "은색");
 		}
@@ -18,19 +24,16 @@ public class Car {
 			this(company, model, color, 3000);
 		}
 		Car(String company, String model, String color, int cc){
+			this(company, model, color ,cc, 300, 60);
+			
+		}
+		
+		Car(String company, String model, String color, int maxSpeed, int speed, int cc){
 			this.model = model;
 			this.color = color;
 			this.cc = cc;
-			this.company = company;
-		}
-		
-		Car(String company, String model, String color, int cc, int maxSpeed){
-			this(company, model, color, cc);
-//			this.model = model;
-//			this.color = color;
-//			this.cc = cc;
-			this.company = company;
 			this.maxSpeed = maxSpeed;
+			this.speed = speed;
 		}
 		
 		// 메소드
