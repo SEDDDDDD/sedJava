@@ -47,9 +47,23 @@ public class CarExample {
 		System.out.println("현재 속도 : "+ motherCar4.speed+"km/s");
 		
 		
+		// 메소드 호출
+		
+	
+		myCar.setGas(5);
 		
 		
+		boolean gasStatus = myCar.isLeftGas();
 		
+		if (gasStatus) {
+			System.out.println("Can drive");
+			myCar.drive();
+		}
+		if (myCar.isLeftGas()) {
+			System.out.println("Enough Gas");
+		}else {
+			System.out.println("Warning : Fuel Gas");
+		}
 	}
 
 }
