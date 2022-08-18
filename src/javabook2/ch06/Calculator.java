@@ -11,17 +11,21 @@ public class Calculator {
 		System.out.println("Power ON");
 	}
 	// 2. 더하기
-	int plus(int x, int y) {
-		int result = x + y;
-		
-		return result;
+//	int plus(int x, int y) {
+//		int result = x + y;
+//		
+//		return result;
+//	}
+	static int plus(int x, int y) {
+		return x+y;
 	}
 	
-	double plus(double x, double y) {
-		double result = x + y;
-		
-		return result;
-	}
+	
+//	double plus(double x, double y) {
+//		double result = x + y;
+//		
+//		return result;
+//	}
 	// 3. 나누기
 	double divide(int x, int y) {
 		double result = (double)x / (double)y;
@@ -40,5 +44,10 @@ public class Calculator {
 		result = divide(sum, y);		// 나누기 : (x + y) / y
 		return result;
 	}
+	static double pi = 3.14159;
+	
 
+	static int minus(int x, int y) {
+		return x-y;
+	}
 }

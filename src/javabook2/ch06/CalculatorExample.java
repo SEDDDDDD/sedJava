@@ -11,7 +11,10 @@ public class CalculatorExample {
 		
 		int sum = myCalc.plus(20, 10);
 		
-		double sum_double = myCalc.plus(20.1, 10.2);
+//		double sum_double = myCalc.plus(20.1, 10.2);
+		int sum_int = Calculator.plus(20, 30);
+		
+		int minus_int = Calculator.minus(50, 30);
 		
 		double divide = myCalc.divide(50, 7);
 		
@@ -23,7 +26,10 @@ public class CalculatorExample {
 		
 		System.out.println("plus divide result = "+sum2);
 		
-		System.out.println(sum_double);
+//		System.out.println(sum_double);
+		
+		System.out.println(sum_int);
+		System.out.println(minus_int);
 		
 		myCalc.powerOff();
 		
