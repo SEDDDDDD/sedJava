@@ -13,10 +13,14 @@ public class CalculatorExample {
 		double result4 = Calculator.divide(result2, result3);
 		
 		
+		
 		System.out.println(result1);
 		System.out.println(result2);
 		System.out.println(result3);
 		System.out.println(result4);
+		
+		
+		javabook2.ch06.sec06.Calculator cal1 = new Calculator();
 	}
 
 }

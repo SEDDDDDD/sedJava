@@ -1,5 +1,8 @@
 package javabook2.ch06;
 
+
+
+//import javabook2.ch06.Calculator;
 public class CalculatorExample {
 
 	public static void main(String[] args) {
@@ -32,6 +35,12 @@ public class CalculatorExample {
 		System.out.println(minus_int);
 		
 		myCalc.powerOff();
+		
+		javabook2.ch06.Calculator cal2 = new javabook2.ch06.Calculator();
+		System.out.println("color: "+ cal2.color);
+		
+		
+		
 		
 	}
 

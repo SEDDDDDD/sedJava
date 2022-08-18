@@ -2,7 +2,7 @@ package javabook2.ch06;
 
 public class Calculator {
 	// 필드
-
+	String color = "red";
 	// 생성자
 	
 	// 메서드
