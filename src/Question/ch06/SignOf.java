@@ -26,7 +26,7 @@ public class SignOf {
 		int input = stdIn.nextInt();
 		
 		int result = signOf(input);
-		
+		System.out.println();
 		System.out.println(result);
 
 	}
