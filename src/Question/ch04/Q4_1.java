@@ -24,7 +24,8 @@ public class Q4_1 {
 //		
 //		
 		Random rand1 = new Random();
-		int dice = rand1.nextInt(1, 7);
+		int dice = rand1.nextInt();
+//				
 		
 		
 		

@@ -65,14 +65,14 @@ public class Q3_1 {
 //		한자리 양의 정수값(1~9) 을 랜덤으로 생성해서 표시
 		Random rnd = new Random();
 		
-		System.out.println(rnd.nextInt(1, 10));
+		System.out.println(rnd.nextInt(10));
 
 //		한자리 음의 정수값을 랜덤으로 생성해서 표시
 		
-		System.out.println(-rnd.nextInt(1, 10));
+		System.out.println(-rnd.nextInt(1));
 		
 //		두자리 양의 정수값을 랜덤으로 생성해 표시
-		System.out.println(rnd.nextInt(10, 100));
+		System.out.println(rnd.nextInt(10));
 
 				
 	}
