@@ -1,4 +1,4 @@
-package javabook2.ch08.sec01;
+package javabook2.ch08.sec02;
 
 public interface RemoteControl {
 	// 상수(속성, 명사)
