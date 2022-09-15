@@ -8,7 +8,8 @@ public class ImplementsC_Example {
 		// 기본 클래스 객체 활용
 		ImplementsC ic = new ImplementsC();
 		ic.methodC();
-		
+		ic.methodA();
+		ic.methodB();
 		// 인터페이스타입 객체 활용
 		InterfaceC ifc = ic;
 		ifc.methodC();

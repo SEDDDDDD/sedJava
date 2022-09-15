@@ -17,6 +17,10 @@ public class Example {
 		
 		InterfaceC ic = imp;
 		ic.methodC();
+		ic.methodA();
+		ic.methodB();
+		ic.methodD();
+		
 	}
 
 }
